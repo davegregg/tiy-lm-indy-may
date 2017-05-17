@@ -1,8 +1,8 @@
-# Setting up your Mac for Ruby development
+# Setting up your Mac for web development (and general setup)
 
 * Open Terminal. It's inside Apps > Utilities (or search for it using
   Spotlight [the maginifying glass in the upper right]).
-* Install [Homebrew](http://brew.sh)<sup><a href="#homebrew" id="homebrew-token">1</a></sup>.
+* Install [Homebrew](http://brew.sh).
 	* It'll ask you to download something else - Command Line Tools. Let it.
 * Install `rbenv`
   * `brew install rbenv`
