@@ -99,9 +99,9 @@ So, we're going to make your prompt display the entire path to the current direc
 - Run `atom ~/.bash_profile`
 
 - In Atom, paste the following at the top of `.bash_profile`:
-    ```
+```
 PS1='\[`[ $? = 0 ] && X=2 || X=1; tput setaf $X`\]\h\[`tput sgr0`\]:$PWD\n\$ '
-    ```
+```
 - Save, close and open a new Terminal window or tab to see the result.
 
 ## Avoiding future pain from using `rm -rf`
