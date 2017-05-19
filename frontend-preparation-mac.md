@@ -4,6 +4,8 @@
 * Install Apple's Xcode Command-Line Tools
   - Run `xcode-select --install`
 * Install [Homebrew](http://brew.sh)<sup><a href="#homebrew" id="homebrew-token">1</a></sup>.
+  - Run `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - Follow the instructions.
 
 ## Git
 
