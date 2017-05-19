@@ -46,12 +46,14 @@ Packages this will install:
 
 - [atom-beautify](https://atom.io/packages/atom-beautify)
     - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
+
 - [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
     - Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
 
     - **Before we can use this, we'll need to run `npm install htmlhint -g`.**
 - [linter-eslint](https://atom.io/packages/linter-eslint)
     - **Before we can use this, we'll need to run `npm install eslint --save-dev`.**
+
 - [livereload](https://atom.io/packages/livereload)
     - Watches for changes in files and automatically reloads the associated browser page.
 
@@ -60,26 +62,37 @@ Packages this will install:
     - Look in the status bar at the very bottom of the Atom window. You will see "LiveReload: Off". We need to turn it on. So, navigate to `Packages` > `LiveReload` > `Toggle Server`. The status will change to "LiveReload: XXXXX" (where XXXXX will be a port number). Click the status to copy a link to the LiveReload JavaScript file to your clipboard. Use that link in a script tag at the bottom of any HTML file you want to refresh automatically.
 - [atom-wrap-in-tag](https://atom.io/packages/atom-wrap-in-tag)
     - Select text you want to wrap in an HTML tag, and hit Alt + Shift + w. Then type the name of tag ('div', 'script', etc.), and both the opening and closing HTML tags will be created for you.
+
 - [autoclose-html](https://atom.io/packages/autoclose-html)
     - Automatically adds closing tags when you complete the opening tag.
+
 - [color-picker](https://atom.io/packages/color-picker)
     - Right-click somewhere you need some code to represent a color. Select Color Picker and pick a color you like. Hit Enter and you're done.
+
 - [pigments](https://atom.io/packages/pigments)
     - Displays the color of a color code as the background color behind the color code itself, so you can see the color at a glance.
+
 - [rainbow-delimiters](https://atom.io/packages/rainbow-delimiters)
     - Highlights matching pairs of parentheses, brackets, and braces on either side of your cursor. Each pair has its own color so you can more-easily tell which matches which!
+
 - [minimap](https://atom.io/packages/minimap)
     - Provides a visual overview of a file's full source code, for ease of moving about in long files.
+
 - [minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected)
     - Highlights all occurrences of a selected word.
+
 - [todo-show](https://atom.io/packages/todo-show)
     - TODO-show reveals comments scattered through your project containing keywords such as TODO, IDEA, NOTE, CHANGED (and others). Use one of those keywords and TODO-show will keep track of each one and where you put it.
+
 - [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation)
     - Automatically detects and configures default indentation for each file.
+
 - [emmet](https://atom.io/packages/emmet)
     Provides tools for automating repetitive HTML tasks. You'll want to ignore this for now until you have grown comfortable with both HTML and CSS.
+
 - [rest-client](https://atom.io/packages/rest-client)
     - Lightweight REST client for testing APIs. You'll can use this later in the course.
+
 - And a few dependencies necessary for the above plugins to use: [linter](https://atom.io/packages/linter), [linter-ui-default](linter-ui-dhttps://atom.io/packages/efault), [intentions](intehttps://atom.io/packages/ntions), and [busy-signal](busy-https://atom.io/packages/signal).
 
 Review the linked documentation for those when you get a chance to
