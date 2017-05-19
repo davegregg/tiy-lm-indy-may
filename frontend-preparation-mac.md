@@ -93,7 +93,7 @@ Packages this will install:
 - [rest-client](https://atom.io/packages/rest-client)
     - Lightweight REST client for testing APIs. You'll can use this later in the course.
 
-- And a few dependencies necessary for the above plugins to use: [linter](https://atom.io/packages/linter), [linter-ui-default](linter-ui-dhttps://atom.io/packages/efault), [intentions](intehttps://atom.io/packages/ntions), and [busy-signal](busy-https://atom.io/packages/signal).
+- And a few dependencies necessary for the above plugins to use: [linter](https://atom.io/packages/linter), [linter-ui-default](https://atom.io/packages/linter-ui-default), [intentions](https://atom.io/packages/intentions), and [busy-signal](https://atom.io/packages/busy-signal).
 
 Review the linked documentation for those when you get a chance to
 discover more about how they're used and how you can tweak them for your projects.
