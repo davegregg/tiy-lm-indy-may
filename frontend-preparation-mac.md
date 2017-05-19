@@ -49,13 +49,15 @@ Packages this will install:
 - [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
     - Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
 
-    - Before we can use this, we'll need to run `npm install htmlhint -g`.
+    - *Before we can use this, we'll need to run `npm install htmlhint -g`.*
 - [linter-eslint](https://atom.io/packages/linter-eslint)
-    - Before we can use this, we'll need to run `npm install eslint --save-dev`.
+    - *Before we can use this, we'll need to run `npm install eslint --save-dev`.*
 - [livereload](https://atom.io/packages/livereload)
     - Watches for changes in files and automatically reloads the associated browser page.
 
-    - Before we can use this, we need to install the [LiveReload extension for Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).
+    - *Before we can use this, we need to install the [LiveReload extension for Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).*
+    - After installing this extension, in Chrome, navigate to `Tools` > `Extensions` > `LiveReload` and enable the "Allow access to file URLs" checkbox.
+    - Look in the status bar at the very bottom of the Atom window. You will see "LiveReload: Off". We need to turn it on. So, navigate to `Packages` > `LiveReload` > `Toggle Server`. The status will change to "LiveReload: XXXXX" (where XXXXX will be a port number). Click the status to copy a link to the LiveReload JavaScript file to your clipboard. Use that link in a script tag at the bottom of any HTML file you want to refresh automatically.
 - [atom-wrap-in-tag](https://atom.io/packages/atom-wrap-in-tag)
     - Select text you want to wrap in an HTML tag, and hit Alt + Shift + w. Then type the name of tag ('div', 'script', etc.), and both the opening and closing HTML tags will be created for you.
 - [autoclose-html](https://atom.io/packages/autoclose-html)
@@ -78,6 +80,7 @@ Packages this will install:
     Provides tools for automating repetitive HTML tasks.
 - [rest-client](https://atom.io/packages/rest-client)
     - Lightweight REST client for testing APIs.
+- []
 
 Review the linked documentation for those when you get a chance to
 discover more about how they're used and how you can tweak them for your projects.
@@ -90,26 +93,6 @@ Also:
 ### Set up Git to use Atom for long commit messages
 
 - Run `git config --global core.editor "atom --wait"`
-
-## Finally, let's tweak our Terminal prompt a bit
-
-In class, it's going to be important that you know where you are in the filesystem before running commands. For instance: It's going to be a nightmare if you `git init` your home directory or `rm -f` (note: try not to do that) a directory you didn't intend.
-
-So, we're going to make your prompt display the entire path to the current directory as so:
-
-- Run `atom ~/.bash_profile`
-
-- In Atom, paste the following at the top of `.bash_profile`:
-```
-PS1='\[`[ $? = 0 ] && X=2 || X=1; tput setaf $X`\]\h\[`tput sgr0`\]:$PWD\n\$ '
-```
-- Save, close and open a new Terminal window or tab to see the result.
-
-## Avoiding future pain from using `rm -rf`
-
-`rm -rf` will outright delete every file and subdirectory in a directory. Let's get it out of our workflow and rely instead on `trash`, so we can restore accidentally-deleted files later.
-
-- Run `brew install trash`
 
 # Other Mac niceties
 
