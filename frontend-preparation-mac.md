@@ -20,8 +20,7 @@
 	* `git config --global credential.helper osxkeychain` (rather than go into detail on what this does, [see GitHub's docs](https://help.github.com/articles/caching-your-github-password-in-git/).
     * If you're feeling more adventurous, go with the SSH key approach
       outlined here: <https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>
-* Finally, we're going to ignore some Mac-specific files in our git
-  commits. Run the follow commands:
+* We're going to want to ignore some Mac-specific files in our git commits. Run the follow commands:
   * `echo .DS_Store >> ~/.gitignore_global`
   * `git config --global core.excludesfile ~/.gitignore_global`
 
@@ -33,7 +32,7 @@
 
 # Atom and Atom Package Manager
 
-We're going to be using [Atom](https://atom.io/)), but in the next step we're going to add packages to Atom from the Terminal, so here's how to install the CLI (command-line interface) helpers for Atom:
+We're going to be using [Atom](https://atom.io/), but in the next step we're going to add packages to Atom from the Terminal, so here's how to install the CLI (command-line interface) helpers for Atom:
 
 - Run `which apm` in your Terminal. If it returns a file path, then Atom and its package manager are already installed in your command-line correctly. If it says instead, "apm not found" (or returns nothing), then open Atom the traditional way, find "Install Shell Scripts" in the Atom menu, and click it. Close your Terminal and re-open it.
 
@@ -46,37 +45,39 @@ One of the things that makes Atom powerful is its package system. I've curated a
 Packages this will install:
 
 - [atom-beautify](https://atom.io/packages/atom-beautify)
-    Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
+    - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
 - [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
-    Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
+    - Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
 
-    Before we can use this, we'll need to run `npm install htmlhint -g`.
+    - Before we can use this, we'll need to run `npm install htmlhint -g`.
+- [linter-eslint](https://atom.io/packages/linter-eslint)
+    - Before we can use this, we'll need to run `npm install eslint --save-dev`.
 - [livereload](https://atom.io/packages/livereload)
-    Watches for changes in files and automatically reloads the associated browser page.
+    - Watches for changes in files and automatically reloads the associated browser page.
 
-    Before we can use this, we need to install the [Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).
+    - Before we can use this, we need to install the [LiveReload extension for Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).
 - [atom-wrap-in-tag](https://atom.io/packages/atom-wrap-in-tag)
-    Select text you want to wrap in an HTML tag, and hit Alt + Shift + w. Then type the name of tag ('div', 'script', etc.), and both the opening and closing HTML tags will be created for you.
+    - Select text you want to wrap in an HTML tag, and hit Alt + Shift + w. Then type the name of tag ('div', 'script', etc.), and both the opening and closing HTML tags will be created for you.
 - [autoclose-html](https://atom.io/packages/autoclose-html)
-    Automatically adds closing tags when you complete the opening tag.
+    - Automatically adds closing tags when you complete the opening tag.
 - [color-picker](https://atom.io/packages/color-picker)
-    Right-click somewhere you need some code to represent a color. Select Color Picker and pick a color you like. Hit Enter and you're done.
+    - Right-click somewhere you need some code to represent a color. Select Color Picker and pick a color you like. Hit Enter and you're done.
 - [pigments](https://atom.io/packages/pigments)
-    Displays the color of a color code as the background color behind the color code itself, so you can see the color at a glance.
+    - Displays the color of a color code as the background color behind the color code itself, so you can see the color at a glance.
 - [rainbow-delimiters](https://atom.io/packages/rainbow-delimiters)
-    Highlights matching pairs of parentheses, brackets, and braces on either side of your cursor. Each pair has its own color so you can more-easily tell which matches which!
+    - Highlights matching pairs of parentheses, brackets, and braces on either side of your cursor. Each pair has its own color so you can more-easily tell which matches which!
 - [minimap](https://atom.io/packages/minimap)
-    Provides a visual overview of a file's full source code, for ease of moving about in long files.
+    - Provides a visual overview of a file's full source code, for ease of moving about in long files.
 - [minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected)
-    Highlights all occurrences of a selected word.
+    - Highlights all occurrences of a selected word.
 - [todo-show](https://atom.io/packages/todo-show)
-    TODO-show reveals comments scattered through your project containing keywords such as TODO, IDEA, NOTE, CHANGED (and others). Use one of those keywords and TODO-show will keep track of each one and where you put it.
+    - TODO-show reveals comments scattered through your project containing keywords such as TODO, IDEA, NOTE, CHANGED (and others). Use one of those keywords and TODO-show will keep track of each one and where you put it.
 - [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation)
-    Automatically detects and configures default indentation for each file.
+    - Automatically detects and configures default indentation for each file.
 - [emmet](https://atom.io/packages/emmet)
     Provides tools for automating repetitive HTML tasks.
 - [rest-client](https://atom.io/packages/rest-client)
-    Lightweight REST client for testing APIs.
+    - Lightweight REST client for testing APIs.
 
 Review the linked documentation for those when you get a chance to
 discover more about how they're used and how you can tweak them for your projects.
@@ -84,7 +85,7 @@ discover more about how they're used and how you can tweak them for your project
 Also:
 
  - If you don't see line numbers of the left side of your files, use Cmd-Shift-P to open the Command Palette. Type "line numbers" and hit Enter to toggle the "Show Line Numbers" setting to enabled.
- - Use Cmd-Comma to open Preferences, navigate to Packages, type "autosave" in the text box at the top. Click Settings and put a checkmark next to Enabled.
+ - Hit Cmd-Comma on your keyboard to open Preferences, navigate to Packages, type "autosave" in the text box at the top. Click Settings and put a checkmark next to Enabled.
 
 ### Set up Git to use Atom for long commit messages
 
