@@ -49,13 +49,13 @@ Packages this will install:
 - [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
     - Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
 
-    - *Before we can use this, we'll need to run `npm install htmlhint -g`.*
+    - **Before we can use this, we'll need to run `npm install htmlhint -g`.**
 - [linter-eslint](https://atom.io/packages/linter-eslint)
-    - *Before we can use this, we'll need to run `npm install eslint --save-dev`.*
+    - **Before we can use this, we'll need to run `npm install eslint --save-dev`.**
 - [livereload](https://atom.io/packages/livereload)
     - Watches for changes in files and automatically reloads the associated browser page.
 
-    - *Before we can use this, we need to install the [LiveReload extension for Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).*
+    - **Before we can use this, we need to install the [LiveReload extension for Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).**
     - After installing this extension, in Chrome, navigate to `Tools` > `Extensions` > `LiveReload` and enable the "Allow access to file URLs" checkbox.
     - Look in the status bar at the very bottom of the Atom window. You will see "LiveReload: Off". We need to turn it on. So, navigate to `Packages` > `LiveReload` > `Toggle Server`. The status will change to "LiveReload: XXXXX" (where XXXXX will be a port number). Click the status to copy a link to the LiveReload JavaScript file to your clipboard. Use that link in a script tag at the bottom of any HTML file you want to refresh automatically.
 - [atom-wrap-in-tag](https://atom.io/packages/atom-wrap-in-tag)
@@ -77,10 +77,10 @@ Packages this will install:
 - [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation)
     - Automatically detects and configures default indentation for each file.
 - [emmet](https://atom.io/packages/emmet)
-    Provides tools for automating repetitive HTML tasks.
+    Provides tools for automating repetitive HTML tasks. You'll want to ignore this for now until you have grown comfortable with both HTML and CSS.
 - [rest-client](https://atom.io/packages/rest-client)
-    - Lightweight REST client for testing APIs.
-- []
+    - Lightweight REST client for testing APIs. You'll can use this later in the course.
+- And a few dependencies necessary for the above plugins to use: [linter](https://atom.io/packages/linter), [linter-ui-default](linter-ui-dhttps://atom.io/packages/efault), [intentions](intehttps://atom.io/packages/ntions), and [busy-signal](busy-https://atom.io/packages/signal).
 
 Review the linked documentation for those when you get a chance to
 discover more about how they're used and how you can tweak them for your projects.
