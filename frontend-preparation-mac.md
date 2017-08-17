@@ -38,7 +38,7 @@ We're going to be using [Atom](https://atom.io/), but in the next step we're goi
 
 ### Tweaking Atom
 
-One of the things that makes Atom powerful is its package system. I've curated a list a recommended packages that will make your life easier over the coming weeks. Run this in Terminal:
+One of the things that makes Atom powerful is its package system. I've curated a list a recommended packages that will make your life easier over the coming weeks. *Run this in Terminal:*
 
 `apm stars --user davegregg --install`
 
