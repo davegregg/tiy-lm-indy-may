@@ -50,9 +50,9 @@ Packages this will install:
 - [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
     - Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
 
-    - **Before we can use this, we'll need to run `npm install htmlhint -g`.**
+    - **Before we can use this, we'll need to run `npm install htmlhint --global`.**
 - [linter-eslint](https://atom.io/packages/linter-eslint)
-    - **Before we can use this, we'll need to run `npm install eslint --save-dev`.**
+    - **Before we can use this, we'll need to run `npm install eslint --global`.**
 
 - [livereload](https://atom.io/packages/livereload)
     - Watches for changes in files and automatically reloads the associated browser page.
