@@ -48,10 +48,17 @@ Packages this will install:
     - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
 
 - [linter-htmlhint](https://atom.io/packages/linter-htmlhint)
-    - Uses [HTMLHint](http://htmlhint.com/) to correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
+    - Helps correct and clean up HTML documents by fixing markup errors and upgrading legacy code to modern standards.
 
     - **Before we can use this, we'll need to run `npm install htmlhint --global`.**
+- [linter-scss-lint](https://atom.io/packages/linter-scss-lint)
+    - Helps you correct errors in your SCSS.
+
+    - **Before we can use this, we'll need to run `gem install scss_lint`.**
+    
 - [linter-eslint](https://atom.io/packages/linter-eslint)
+    - Helps you correct errors and some bad practices in your JavaScript.
+    
     - **Before we can use this, we'll need to run `npm install eslint --global`.**
 
 - [livereload](https://atom.io/packages/livereload)
