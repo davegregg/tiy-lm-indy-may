@@ -95,15 +95,14 @@ Packages this will install:
     - Automatically detects and configures default indentation for each file.
 
 - [emmet](https://atom.io/packages/emmet)
-    Provides tools for automating repetitive HTML tasks. You'll want to ignore this for now until you have grown comfortable with both HTML and CSS.
+    - Provides tools for automating repetitive HTML tasks. You'll want to ignore this for now until you have grown comfortable with both HTML and CSS (see https://emmet.io/).
 
 - [rest-client](https://atom.io/packages/rest-client)
     - Lightweight REST client for testing APIs. You'll can use this later in the course.
 
 - And a few dependencies necessary for the above plugins to use: [linter](https://atom.io/packages/linter), [linter-ui-default](https://atom.io/packages/linter-ui-default), [intentions](https://atom.io/packages/intentions), and [busy-signal](https://atom.io/packages/busy-signal).
 
-Review the linked documentation for those when you get a chance to
-discover more about how they're used and how you can tweak them for your projects.
+Review the linked documentation for those when you get a chance to discover more about how they're used and how you can tweak them for your projects.
 
 Also:
 
